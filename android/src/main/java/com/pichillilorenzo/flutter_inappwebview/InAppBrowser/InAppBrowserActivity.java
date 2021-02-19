@@ -1021,6 +1021,10 @@ public class InAppBrowserActivity extends AppCompatActivity implements MethodCha
   @Override
   public void onDestroy() {
     dispose();
+    if(webView != null) {
+      webView.destroy();
+      webView = null;
+    }
     super.onDestroy();
   }
 
