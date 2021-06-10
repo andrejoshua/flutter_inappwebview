@@ -10,8 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  uuid: ^2.0.0
-  mime: ^0.9.6+2
+  uuid: ^3.0.4
+  mime: ^1.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
